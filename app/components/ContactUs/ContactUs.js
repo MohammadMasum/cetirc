@@ -12,7 +12,7 @@ export default function ContactUs() {
                             <p>Contact US</p>
                         </div>
                         <h2 className="section-title !leading-[1.3] mb-[20px]"><span className='font-normal'>Supercharge Your Business With</span> <br /> Alice 1 & Alice 2</h2>
-                        <p>We designed Alice 1 and 2 palm ID services to streamline your business by making transactions, payments, and access control smooth and secure. To get our enterprise hardware or enterprise software products, kindly message us directly, and we'll walk you through it all.</p>
+                        <p>We designed Alice 1 and 2 palm ID services to streamline your business by making transactions, payments, and access control smooth and secure. To get our enterprise hardware or enterprise software products, kindly message us directly, and we&apos;ll walk you through it all.</p>
                     </div>
                     <div>
                         <form action='#' className='contact_form grid gap-[20px]'>

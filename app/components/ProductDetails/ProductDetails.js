@@ -17,7 +17,7 @@ export default function ProductDetails() {
                         <p>Product Details</p>
                     </div>
                     <h2 className='section-title mb-[20px]'><span className='font-normal'>Exploring</span> Alice 1 and Alice 2</h2>
-                    <p>"Alice 1 and Alice 2 are cutting-edge palm vein identification services developed by Cetirc. Both products use palm vein biometrics, one of today's most secure and accurate biometric authentication methods.</p>
+                    <p>&quot;Alice 1 and Alice 2 are cutting-edge palm vein identification services developed by Cetirc. Both products use palm vein biometrics, one of today&apos;s most secure and accurate biometric authentication methods.</p>
                 </div>
                 <div className="grid grid-cols-3 gap-y-[60px] gap-x-[120px]">
                     {/* single details box */}
@@ -26,7 +26,7 @@ export default function ProductDetails() {
                             <Image className="h-[70px] w-[70px] min-w-[70px]" src={ProductDetailsIcon1} alt="Product Details Icon"/>
                             <h4 className='text-[24px] font-medium'>Alice 1 Features</h4>
                         </div>
-                        <p className='text-[18px] text-[#686868]'>"Use Alice 1 for secure palm vein payment services at POS and retail stores."</p>
+                        <p className='text-[18px] text-[#686868]'>&quot;Use Alice 1 for secure palm vein payment services at POS and retail stores.&quot;</p>
                     </div>
                     {/* single details box */}
                     <div>
@@ -34,7 +34,7 @@ export default function ProductDetails() {
                             <Image className="h-[70px] w-[70px] min-w-[70px]" src={ProductDetailsIcon1} alt="Product Details Icon 1"/>
                             <h4 className='text-[24px] font-medium'>Alice 2 Features</h4>
                         </div>
-                        <p className='text-[18px] text-[#686868]'>"Alice 2 offers advanced access control and identification capabilities."</p>
+                        <p className='text-[18px] text-[#686868]'>&quot;Alice 2 offers advanced access control and identification capabilities.&quot;</p>
                     </div>
                     {/* single details box */}
                     <div>
@@ -42,7 +42,7 @@ export default function ProductDetails() {
                             <Image className="h-[70px] w-[70px] min-w-[70px]" src={ProductDetailsIcon2} alt="Product Details Icon 2"/>
                             <h4 className='text-[24px] font-medium'>Registration</h4>
                         </div>
-                        <p className='text-[18px] text-[#686868]'>"Register with the Alice 1 app or offline using our Cetirc biometrics device. The app is free to download and easy to use."</p>
+                        <p className='text-[18px] text-[#686868]'>&quot;Register with the Alice 1 app or offline using our Cetirc biometrics device. The app is free to download and easy to use.&quot;</p>
                     </div>
                     {/* single details box */}
                     <div>
@@ -50,7 +50,7 @@ export default function ProductDetails() {
                             <Image className="h-[70px] w-[70px] min-w-[70px]" src={ProductDetailsIcon3} alt="Product Details Icon 3"/>
                             <h4 className='text-[24px] font-medium'>Biometric Authentication</h4>
                         </div>
-                        <p className='text-[18px] text-[#686868]'>"Both products use palm vein biometrics, one of today's most secure and accurate authentication methods."</p>
+                        <p className='text-[18px] text-[#686868]'>&quot;Both products use palm vein biometrics, one of today&apos;s most secure and accurate authentication methods.&quot;</p>
                     </div>
                     {/* single details box */}
                     <div>
@@ -58,7 +58,7 @@ export default function ProductDetails() {
                             <Image className="h-[70px] w-[70px] min-w-[70px]" src={ProductDetailsIcon4} alt="Product Details Icon 4"/>
                             <h4 className='text-[24px] font-medium'>Cost Information </h4>
                         </div>
-                        <p className='text-[18px] text-[#686868]'>"Alice 1 hardware and Alice 2 access control come at competitive prices for enterprise/business use."</p>
+                        <p className='text-[18px] text-[#686868]'>&quot;Alice 1 hardware and Alice 2 access control come at competitive prices for enterprise/business use.&quot;</p>
                     </div>
                 </div>
             </div>

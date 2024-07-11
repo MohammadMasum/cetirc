@@ -21,10 +21,10 @@ export default function MediaBox2() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-[7fr_5fr] gap-x-[30px] items-center mb-[80px] mb-[140px]">
+            <div className="grid grid-cols-[7fr_5fr] gap-x-[30px] items-center mb-[140px]">
                 <div className=''>
                     <h2 className='section-title mb-[30px]'><span className='font-medium'>Our Story</span></h2>
-                    <p className='mb-[20px]'>Since launching, we've been steadfast in advancing the frontiers of palm vein biometrics and authentication technology. We’ve not slacked in our vision of developing advanced biometric solutions that address the rising identification and digital signature problems and inefficiencies. More importantly, we've made giant strides in research, development, implementation, and partnership to establish ourselves as a trusted leader in the biometrics industry.</p>
+                    <p className='mb-[20px]'>Since launching, we&apos;ve been steadfast in advancing the frontiers of palm vein biometrics and authentication technology. We’ve not slacked in our vision of developing advanced biometric solutions that address the rising identification and digital signature problems and inefficiencies. More importantly, we&apos;ve made giant strides in research, development, implementation, and partnership to establish ourselves as a trusted leader in the biometrics industry.</p>
                 </div>
                 <div className='h-full min-h-[360px] relative'>
                     <Image className='object-cover rounded-l-[30px]' src={Media2Thumb2} alt="Media Thumb2" />

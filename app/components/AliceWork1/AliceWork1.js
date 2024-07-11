@@ -9,7 +9,7 @@ export default function AliceWork1() {
             <div className="container">
                 <div className="flex flex-col mb-[50px]">
                     <h2 className='section-title mb-[20px]'><span className='font-normal'>How Does</span> Alice 1 Work?</h2>
-                    <p className=''>Alice 1 improves the retail and POS payment experiences with palm vein biometrics. <br /> Here's how it works:</p>
+                    <p className=''>Alice 1 improves the retail and POS payment experiences with palm vein biometrics. <br /> Here&apos;s how it works:</p>
                 </div>
                 <div className="grid grid-cols-[4fr_8fr] gap-x-[60px]">
                     <div>
