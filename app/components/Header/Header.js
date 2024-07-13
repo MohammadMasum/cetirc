@@ -83,13 +83,7 @@ export default function Header() {
             className='text-[30px] menu-trigger lg:hidden ml-[15px] h-[50px] w-[50px] flex items-center justify-center rounded-lg bg-white'
             onClick={handleClick}
           >
-            <IconContext.Provider value={{ style: { fill: "url(#gradient)" } }}>
-              <svg width='0' height='0'>
-                <linearGradient id='gradient' x1='0' y1='0' x2='100%' y2='100%'>
-                  <stop offset='0%' stopColor='#C5EAFF' />
-                  <stop offset='100%' stopColor='#38B6FF' />
-                </linearGradient>
-              </svg>
+            <IconContext.Provider value={{ style: { fill: "#212121" } }}>
               <HiMiniBars3BottomRight />
             </IconContext.Provider>
           </div>

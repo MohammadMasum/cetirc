@@ -1,15 +1,14 @@
 import React from 'react'
-import Link from "next/link";
 import Image from "next/image";
 import SecurityImage from "@/app/assets/images/security-thumb.png"
 
 export default function Security() {
   return (
     <>
-        <section className='py-[120px]'>
+        <section className='md:py-[120px] pt-[60px] pb-0'>
             <div className="container">
-                <div className="grid grid-cols-[5fr_7fr] gap-x-[50px] items-center">
-                    <div>
+                <div className="grid md:grid-cols-[5fr_7fr] gap-x-[50px] items-center">
+                    <div className='md:mb-0 mb-[30px]'>
                         <Image className="" src={SecurityImage} alt="Security Thumb"/>
                     </div>
                     <div>

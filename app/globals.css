@@ -5,7 +5,7 @@
 /* group utilities  */
 @layer base {
   body {
-    @apply xl:text-[20px] lg:text-[18px] text-[16px] font-poppins font-normal leading-[1.6];
+    @apply xl:text-[20px] lg:text-[18px] text-[14px] font-poppins font-normal leading-[1.6];
   }
   h1,
   h2,
@@ -21,15 +21,15 @@
 }
 
 .bordered-btn {
-  @apply text-[20px] text-[#0D0D0D] border border-[#1C1C1C] inline-block bg-transparent rounded-[8px] py-[14px] px-[45px] transition-all duration-300 hover:bg-[#2C2825] hover:text-white;
+  @apply xl:text-[20px] text-[12px] text-center text-[#0D0D0D] border border-[#1C1C1C] inline-block bg-transparent rounded-[8px] xl:py-[14px] py-[10px] xl:px-[45px] px-[35px] transition-all duration-300 hover:bg-[#2C2825] hover:text-white;
 }
 
 .primary-btn {
-  @apply text-[20px] text-white border border-[#1C1C1C] inline-block bg-[#2C2825] rounded-[8px] py-[14px] px-[45px] transition-all duration-300 hover:bg-transparent hover:text-[#0D0D0D];
+  @apply xl:text-[20px] text-[12px] text-center text-white border border-[#1C1C1C] inline-block bg-[#2C2825] rounded-[8px] xl:py-[14px] py-[10px] xl:px-[45px] px-[35px] transition-all duration-300 hover:bg-transparent hover:text-[#0D0D0D];
 }
 
 .main-title {
-  @apply xl:text-[60px] lg:text-[42px] md:text-[36px] leading-[1.2];
+  @apply xl:text-[60px] lg:text-[42px] text-[36px] leading-[1.2];
 }
 
 .subtitle {
@@ -41,11 +41,11 @@
 }
 
 .subtitle p {
-  @apply font-medium text-[16px];
+  @apply font-medium md:text-[16px] text-[12px];
 }
 
 .section-title {
-  @apply 2xl:text-[48px] xl:text-[36px] text-[32px] leading-[1.2];
+  @apply 2xl:text-[48px] text-[36px] leading-[1.2];
 }
 
 .offcanvas.active {
@@ -58,4 +58,16 @@
 
 .header-menu .menu-link:before {
   @apply absolute left-0 bottom-0 h-[2px] w-0 content-[''] bg-[#96CF30] opacity-0 invisible transition-all duration-300 hover:w-full hover:opacity-100 hover:visible;
+}
+
+@media (max-width: 768px) {
+  .product-area {
+    background-image: none!important;
+  }
+  .alice-multi-column {
+    background-image: none!important;
+  }
+  .cta-area {
+    background-image: none!important;
+  }
 }

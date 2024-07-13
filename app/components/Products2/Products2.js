@@ -4,38 +4,36 @@ import ProductShape from "@/app/assets/images/product-shape.png"
 import ProductBgShape from "@/app/assets/images/product-bg.png"
 import ProductEggShape from "@/app/assets/images/egg-shape2.png"
 
-export default function Products2() {
+export default function Products() {
   return (
     <>
-      <section className='bg-cover bg-no-repeat bg-bottom pt-[120px] pb-[90px]' style={{ backgroundImage: `url(${ProductBgShape.src})` }}>
+      <section className='product-area bg-cover bg-no-repeat bg-bottom md:pt-[120px] pt-[0] md:pb-[90px] pb-[60px]' style={{ backgroundImage: `url(${ProductBgShape.src})` }}>
         <div className="container">
-            <div className="grid grid-cols-[4fr_8fr]">
-                <div className="relative z-10">
-                    <Image className="absolute -left-[100px] top-[25%] -z-10" src={ProductShape} alt="Product Shape"/>
+            <div className="grid lg:grid-cols-[4fr_8fr] gap-x-[30px]">
+                <div className="relative z-10 lg:mb-0 mb-[30px]">
+                    <Image className="absolute -left-[100px] top-[25%] -z-10 lg:block hidden" src={ProductShape} alt="Product Shape"/>
                     <div className="subtitle">
                         <span></span>
                         <p>Our Products</p>
                     </div>
                     <h2 className='section-title'><span className='font-normal'>Explore Our</span> Products</h2>
                 </div>
-                <div className='grid grid-cols-2 gap-[50px]'>
+                <div className='grid sm:grid-cols-2 xl:gap-[50px] gap-[30px]'>
                     {/* single box  */}
-                    <div className='bg-white rounded-[37px] pt-[50px] px-[40px] pb-[50px] shadow-[0_30px_60px_rgba(0,0,0,0.08)]'>
-                        <h1 className='section-title font-light mb-[80px] relative z-10 pl-[25px]'>
-                            <Image className="absolute -left-[30px] -top-[40px] -z-10" src={ProductEggShape} alt="Egg Shape"/>
+                    <div className='bg-white md:rounded-[37px] rounded-[20px] lg:pt-[50px] md:pt-[30px] pt-[20px] lg:px-[40px] md:px-[25px] px-[20px] lg:pb-[50px] md:pb-[30px] pb-[20px] shadow-[0_30px_60px_rgba(0,0,0,0.08)]'>
+                        <h1 className='2xl:text-[48px] md:text-[36px] text-[26px] font-light mb-[15px] relative z-10 lg:pl-[25px] pl-0'>
+                            <Image className="absolute lg:-left-[30px] -left-[5px] lg:-top-[40px] md:-top-[10px] -top-[15px] -z-10 lg:max-w-[50%] md:max-w-[25%] max-w-[60px]" src={ProductEggShape} alt="Egg Shape"/>
                             Alice 1
                         </h1>
-                        <h4 className='text-[24px] font-medium mb-[15px]'>Register, Authenticate, Pay.</h4>
-                        <p className='text-[#525050]'>Available for use across all Cetirc partners, users, and merchants worldwide.</p>
+                        <p className='text-[#525050] md:text-[20px] text-[14px]'>Available for use across all Cetirc partners, users, and merchants worldwide.</p>
                     </div>
                     {/* single box  */}
-                    <div className='bg-white rounded-[37px] pt-[50px] px-[40px] pb-[50px] shadow-[0_30px_60px_rgba(0,0,0,0.08)] translate-y-[55px]'>
-                        <h1 className='section-title font-light mb-[80px] relative z-10 pl-[25px]'>
-                            <Image className="absolute -left-[30px] -top-[40px] -z-10" src={ProductEggShape} alt="Egg Shape"/>
+                    <div className='bg-white md:rounded-[37px] rounded-[20px] lg:pt-[50px] md:pt-[30px] pt-[20px] lg:px-[40px] md:px-[25px] px-[20px] lg:pb-[50px] md:pb-[30px] pb-[20px] shadow-[0_30px_60px_rgba(0,0,0,0.08)] lg:translate-y-[55px]'>
+                        <h1 className='2xl:text-[48px] md:text-[36px] text-[26px] font-light mb-[15px] relative z-10 lg:pl-[25px] pl-0'>
+                            <Image className="absolute lg:-left-[30px] -left-[5px] lg:-top-[40px] md:-top-[10px] -top-[15px] -z-10 lg:max-w-[50%] md:max-w-[25%] max-w-[60px]" src={ProductEggShape} alt="Egg Shape"/>
                             Alice 2
                         </h1>
-                        <h4 className='text-[24px] font-medium mb-[15px]'>Access Control, Authenticate, Identify.</h4>
-                        <p className='text-[#525050]'>Available for use across Cetirc partners and organizations worldwide.</p>
+                        <p className='text-[#525050] md:text-[20px] text-[14px]'>Available for use across Cetirc partners and organizations worldwide.</p>
                     </div>
                 </div>
             </div>
@@ -44,3 +42,4 @@ export default function Products2() {
     </>
   )
 }
+
