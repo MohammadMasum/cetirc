@@ -13,7 +13,7 @@ export default function Header() {
   const [isActive, setIsActive] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const currentPage = usePathname();
-  console.log(currentPage);
+  // console.log(currentPage);
 
   const handleClick = (e) => {
     setIsActive(true);
