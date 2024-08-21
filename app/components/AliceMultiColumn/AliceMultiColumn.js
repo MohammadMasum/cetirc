@@ -97,28 +97,28 @@ export default function AliceMultiColumn() {
               </h2>
               <ul className='flex flex-col md:gap-[30px] gap-[15px] lg:w-[90%] w-full'>
                 <motion.li
-                  className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#F6FCEA] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] mr-[50px]"
+                  className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#CAF7CE] border border-[#A0EFA6] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] mr-[50px]"
                   variants={fadeInUp}
                 >
                   <span className='text-[#424242] text-[16px] mt-[5px]'><IoMdCheckmarkCircle /></span>
                   Breeze through any restricted place, entrance, resource, or information with Alice 2.
                 </motion.li>
                 <motion.li
-                  className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#F6FCEA] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] ml-[50px]"
+                  className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#CAF7CE] border border-[#A0EFA6] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] ml-[50px]"
                   variants={fadeInUp}
                 >
                   <span className='text-[#424242] text-[16px] mt-[5px]'><IoMdCheckmarkCircle /></span>
                   It’s quick, flexible, and secure: you authorize access using only your palm.
                 </motion.li>
                 <motion.li
-                  className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#F6FCEA] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] mr-[50px]"
+                  className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#CAF7CE] border border-[#A0EFA6] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] mr-[50px]"
                   variants={fadeInUp}
                 >
                   <span className='text-[#424242] text-[16px] mt-[5px]'><IoMdCheckmarkCircle /></span>
                   Everyone has a unique identity, which adds extra reliability and peace of mind.
                 </motion.li>
                 <motion.li
-                  className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#F6FCEA] border border-[#A9ED12] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] ml-[50px]"
+                  className="flex lg:gap-[15px] gap-[10px] md:text-[20px] text-[14px] bg-[#CAF7CE] border border-[#A0EFA6] md:rounded-[20px] rounded-[15px] py-[20px] px-[15px] ml-[50px]"
                   variants={fadeInUp}
                 >
                   <span className='text-[#424242] text-[16px] mt-[5px]'><IoMdCheckmarkCircle /></span>

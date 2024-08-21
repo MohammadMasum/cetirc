@@ -31,7 +31,7 @@ export default function ContactUs() {
 
   return (
     <>
-      <section ref={ref} className='md:bg-[#F6FCEA] md:py-[100px] mt-[80px]'>
+      <section ref={ref} className='md:bg-[#CAF7CE] md:py-[100px] mt-[80px]'>
         <div className="container">
           <motion.div
             className="grid md:grid-cols-2 xl:gap-[180px] lg:gap-[100px] gap-[50px]"
@@ -40,7 +40,7 @@ export default function ContactUs() {
             animate={controls}
           >
             <motion.div className='md:text-left text-center' variants={fadeInUp}>
-              <div className="subtitle">
+              <div className="subtitle !bg-[#A0EFA6]">
                 <span></span>
                 <p>Contact US</p>
               </div>
