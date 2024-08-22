@@ -39,7 +39,6 @@ export default function AliceMultiColumn() {
     <>
       <section ref={ref} className='alice-multi-column relative z-10 md:pt-[70px] pt-0'>
         <Image className="absolute left-0 top-0 w-full -z-10 md:block hidden" src={backgroundShape} alt="Background shape" />
-        <Image className="absolute right-0 top-[50px] w-1/2 -z-10 md:block hidden" src={MachineThumb} alt="Background shape" />
         <div className="container">
           {/* first column */}
           <motion.div
@@ -78,8 +77,10 @@ export default function AliceMultiColumn() {
                   You’re in full control: You decide where and when to use or approve your palm ID
                 </motion.li>
               </ul>
-              <Image className="sm:hidden block ml-auto -mr-[15px] mt-[30px]" src={MachineThumbMobile} alt="Machine Thumb Mobile" />
             </motion.div>
+            <div className='md:ml-auto mt-[30px] md:mt-0'>
+              <Image className="" src={MachineThumb} alt="Machine Thumb Mobile" />
+            </div>
           </motion.div>
           {/* second column */}
           <motion.div

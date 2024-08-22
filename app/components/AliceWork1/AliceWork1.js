@@ -13,9 +13,8 @@ export default function AliceWork1() {
                     <p className=''>Alice 1 improves the retail and POS payment experiences with palm vein biometrics. <br className='lg:block hidden' /> Here&apos;s how it works:</p>
                 </div>
                 <div className="grid sm:grid-cols-[4fr_8fr] lg:gap-x-[60px] gap-x-[30px]">
-                    <div>
-                        <Image className="w-full sm:block hidden" src={AliceWorkThumb1} alt="AliceWorkThumb1"/>
-                        <Image className="w-full sm:hidden block -ml-[16px] mb-[30px]" src={AliceWorkThumbMobile} alt="AliceWorkThumbMobile"/>
+                    <div className='mb-[30px]'>
+                        <Image className="w-full" src={AliceWorkThumb1} alt="AliceWorkThumb1"/>
                     </div>
                     <div className='relative'>
                         {/* single work item  */}
